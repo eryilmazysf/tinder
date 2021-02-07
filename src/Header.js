@@ -9,12 +9,14 @@ function Header() {
       <IconButton>
         <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
-      <img
-        className="header__logo"
-        src="https://www.logo.wine/a/logo/Tinder_(app)/Tinder_(app)-Flame-Logo.wine.svg"
-        alt="tinder logo"
-      />
-      <IconButton>
+      <IconButton href="/">
+        <img
+          className="header__logo"
+          src="https://www.logo.wine/a/logo/Tinder_(app)/Tinder_(app)-Flame-Logo.wine.svg"
+          alt="tinder logo"
+        />
+      </IconButton>
+      <IconButton href="./message">
         <ForumIcon fontSize="large" className="header__icon" />
       </IconButton>
     </div>
